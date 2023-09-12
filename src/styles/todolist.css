@@ -1,0 +1,82 @@
+.title{
+    font: 100 ;
+    background-color: rgb(241, 236, 231);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vh;
+    padding-left: 10px;
+    height:40px ;
+    transition: 0.5s ease-in-out ;
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); */
+  
+  }
+
+  .todo-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    margin: 5px;
+    height: 40px;
+    font: italic;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.6s ease-in-out;
+    /* flex-wrap: wrap; */
+    
+  }
+
+  .title:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    /* transform: scale(1.2); */
+  }
+
+  /* .todo-text:hover{
+    transform: scale(1.1);
+  } */
+
+.todo-list{
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  transition: 0.5s ease-in-out;
+}
+
+  .todo-list:hover{
+    transform: scale(1.1);
+  }
+
+
+  .delete-icon:hover{
+    color: red;
+  }
+
+  .delete-icon{
+    padding: 7px;
+  }
+
+  .react-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .update-icon{
+    font-size: large;
+    transition:all 0.7s ease-in-out;
+  }
+
+
+  .update-icon:hover{
+    color: rgb(37, 37, 182);
+    /* background-color: rgb(162, 162, 57); */
+    /* filter: invert(1); */
+    /* filter: scale(1.2); */
+  }
+
+  .update-icon{
+    position: relative;
+  }

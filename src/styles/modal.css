@@ -1,0 +1,21 @@
+.modal{
+    width: 25px;
+    height: 15px;
+    position: absolute;
+    top: 11px;
+    margin-top: -7px;
+    
+    /* background-color: aqua;  */
+}
+
+.text-area{
+    border-radius: 8px;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s ease-in-out;
+}
+
+
